@@ -46,6 +46,10 @@ const routes = [
   {
     path: '/',
     redirect: '/Hello'
+  },
+  {
+    path: '/l1ist',
+    component: List
   }
 ]
 const router = new Router({
